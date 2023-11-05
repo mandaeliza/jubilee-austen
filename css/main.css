@@ -1,0 +1,179 @@
+/****** Global Styles ******/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #5E5D5E;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.content-wrapper {
+        width: 1200px;
+        margin: 0px auto;
+        overflow: auto;
+}
+
+h1,
+h2 {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/****** Header Styles ******/
+.homepage-hero {
+    background: url('../img/full-background.png') no-repeat #F9EFEF;
+    background-size: cover;
+    height: 800px;
+}
+
+header h1 {
+    width: 300px;
+    float: left;
+    padding: 65px 0px 65px 25px; 
+    color: #7B7E54;
+    font-size: 30px;
+  }
+
+header nav {
+    width: 800px;
+    float: right;
+    text-align: right;
+    padding: 75px 25px 75px 0px;
+  }
+
+header h2 {
+   width: 1000px;
+   padding: 20px 0px 20px 25px;
+   clear: both;
+   color: #817F80;
+   font-size: 72px;
+   line-height: 80px;
+} 
+
+header nav ul li {
+    display: inline-block;
+    font-size: 18px; 
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+
+    color: #727172;
+    padding-left: 80px;
+}
+
+/****** About Styles ******/
+#about .content-wrapper {
+    padding: 80px 0px;
+}
+
+#about h2 {
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+    width: 500px;
+    float: left;
+    padding: 0px 50px;
+}
+
+/****** Skill Styles ******/
+#skills {
+    background: #F5F5F5;
+    text-align: center;
+}
+#skills .content-wrapper {
+    padding: 115px 0px;
+}
+
+#skills h2 {
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+.skill-list {
+    float: left;
+    width: 300px;
+    padding: 0px 50px 0px 50px;
+}
+
+#skills h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0px 20px 0px;
+    font-weight: bold;
+}
+
+/****** Contact Styles ******/
+#contact {
+    background: #F9E9E9;
+}
+
+#contact .content-wrapper {
+    padding: 110px 0px 110px 0px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #5E5D5E;
+}
+
+.contact-image {
+    float: left;
+    width: 630px;
+}
+
+.contact-img {
+    width: 500px;
+    height: 300px;
+    border: 15px solid white;
+    margin: 0px 50px;
+}
+
+.contact-info {
+    float: left;
+    width: 500px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.contact-info ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#contact h2 {
+    font-size: 36px;
+    line-height: 40px;
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+#contact ul img {
+    padding-right: 50px;
+}
+
+#email-header {
+    margin-bottom: 5px;
+}
+
+#email-icon {
+    margin-right: 10px;
+}
+
+#socialmedia-header {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
